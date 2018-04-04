@@ -2,23 +2,17 @@
   "name": "react-sketch",
   "version": "0.4.4",
   "description": "Sketch Element for React based applications, backed-up by fabricjs as its core",
-  "keywords": [
-    "react",
-    "canvas",
-    "sketch",
-    "fabricjs",
-    "fabric.js"
-  ],
+  "keywords": ["react", "canvas", "sketch", "fabricjs", "fabric.js"],
   "author": {
-    "name": "Thomas Bolis",
-    "email": "thomas.bolis@gmail.com"
+    "name": "Jeffrey Canty",
+    "email": "hello@jeffrey.engineer"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tbolis/react-sketch.git"
+    "url": "https://github.com/cantyjeffrey/react-sketch.git"
   },
   "bugs": {
-    "url": "https://github.com/tbolis/react-sketch/issues"
+    "url": "https://github.com/cantyjeffrey/react-sketch/issues"
   },
   "license": "MIT",
   "main": "./lib",
