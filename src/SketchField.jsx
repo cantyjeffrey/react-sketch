@@ -123,6 +123,24 @@ class SketchField extends PureComponent {
     });
   };
 
+  addOverlayImg = (dataUrl, options = {}) => {
+    let canvas = this._fc;
+    fabric.Image.fromURL(dataUrl, (oImg) => {
+      let opts = {
+        left: Math.random() * (canvas.getWidth() - oImg.width * 0.5),
+        top: Math.random() * (canvas.getHeight() - oImg.height * 0.5),
+        scale: 0.5
+      };
+      Object.assign(opts, options);
+      oImg.scale(opts.scale);
+      oImg.set({
+        left: opts.left,
+        top: opts.top
+      });
+      canvas.setOverlayImage(oImg);
+    });
+  };
+
   /**
    * Action when an object is added to the canvas
    */
